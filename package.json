@@ -8,9 +8,11 @@
     "mockle-spoof": "bin/cmd_mockle_spoof.js"
   },
   "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-10",
+    "@abandonware/noble": "^1.9.2-20",
     "argparse": "^1.0.7",
     "async": "^1.5.2",
-    "bleno": "0.4.0",
+    "bleno": "npm:@abandonware/bleno@^0.5.1-4",
     "colors": "^1.1.2",
     "jsonfile": "^2.2.3",
     "noble": "^1.3.0",
@@ -18,7 +20,6 @@
     "socket.io-client": "^1.4.5",
     "winston": "^2.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo 'no test command'; exit 1;"
   },
